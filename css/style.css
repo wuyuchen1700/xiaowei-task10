@@ -1,0 +1,26 @@
+	*{margin:0;padding:0;}
+	div{
+		width: 150px;
+		border:1px solid #f00;
+		margin:10px;
+	}
+	.container{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		padding:20px;
+	}
+	.s1{height: 120px;}
+	.s2{height: 100px;}
+	.s3{height: 40px;}
+	.s4{height: 200px;}
+
+@media only screen and (max-width: 640px) {
+	.container{align-items: flex-start;
+				flex-wrap: wrap;
+				}
+	.s4{order:-1;}
+
+	}
+
